@@ -1,8 +1,8 @@
-Django
-djangorestframework
-Pillow
-psycopg2
-Markdown
-Pygments
-factory_boy
-djangorestframework-simplejwt
+Django==2.1.7
+djangorestframework==3.9.2
+djangorestframework-simplejwt==4.1.0
+factory-boy==2.11.1
+Markdown==3.0.1
+Pillow==5.4.1
+psycopg2==2.7.7
+Pygments==2.2.0
