@@ -9,7 +9,7 @@ class Exam(models.Model):
         ('4', '4'),
         ('5', '5')
     )
-    # student = models.CharField(max_length=50,unique=True)
+    # student = models.CharField(max_length=64, null=False, blank=False)
     first_task_points = models.PositiveIntegerField()
     second_task_points = models.PositiveIntegerField()
     sum_of_points = models.PositiveIntegerField()

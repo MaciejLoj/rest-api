@@ -15,11 +15,3 @@ class ExamViewTest(TestCase):
         response = exam_detail(request, pk=exam.pk)
         self.assertEqual(response.status_code, 200)
 
-    def test_post_exam(self):
-        factory = APIRequestFactory()
-        request = factory.post('/exams/', {'sum_of_points': 2}, format='json')
-        user = User.objects.create_user('ala', '', password='restapi')
-        force_authenticate(request, user=user)
-        view = ExamsView.as_view()
-        response = view(request)
-        self.assertEqual(response.status_code, 201)
