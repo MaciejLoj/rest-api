@@ -1,27 +1,22 @@
-# rest-api
-Django REST API
-
 # Basic REST API created using Django Rest Framework
-> It's a project entirely developed by myself. It presents a simple REST API for a web application that solves the problem of preparing and evaluating exam sheets
+Presents a simple REST API for a web application that solves the problem of preparing and evaluating exam sheets
 
 ## Setup
-
-Parts of the app are run in docker containers. On your local machine you need to download below files:
+To set up such an app you need to download Docker files and GNU Make.
+Just follow below links and download above-mentioned files:
 
 * [docker](https://docs.docker.com/install/)
 * [docker-compose](https://docs.docker.com/compose/install/)
 * [make](https://www.gnu.org/software/make/)
 
-Clone or download repository:
+**Afterwards clone or download my repository**:
 ```
 $ git clone https://github.com/MaciejLoj/rest-api
 ```
-**Running locally**
+## Starting the app
 
-The following commands, respectively: build all the services and run the containers.
+**Below commands allow you to start the project locally by building up the container and running the app locally.**
 
-What you need to do to run the app is just open your terminal, then open cloned repository and go to Makefile directory.
-Afterwards type in below commands and enjoy the app.
 ```
 $ make build-dev
 $ make dev
