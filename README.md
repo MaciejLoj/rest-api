@@ -1,3 +1,5 @@
+Project in progress, configuring settings.py
+
 # Basic REST API created using Django Rest Framework
 Presents a simple REST API for a web application that solves the problem of preparing and evaluating exam sheets
 
